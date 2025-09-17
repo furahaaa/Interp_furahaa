@@ -89,7 +89,7 @@ android {
 
     namespace 'com.interp.myApp'
     defaultConfig {
-        applicationId 'com.interp.myApp'
+        applicationId 'com.interp.interp'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
