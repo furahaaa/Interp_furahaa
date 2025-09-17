@@ -1,0 +1,29 @@
+{
+    "users": [],
+    "metadata": {
+        "created": "2024-01-01T00:00:00.000Z",
+        "version": "1.0.0",
+        "description": "Données utilisateurs Interp - Sauvegarde locale et AWS",
+        "lastUpdate": "2024-01-01T00:00:00.000Z"
+    },
+    "awsConfig": {
+        "enabled": true,
+        "region": "eu-west-3",
+        "service": "dynamodb",
+        "tableName": "interp-users"
+    },
+    "dataStructure": {
+        "user": {
+            "id": "string - ID unique utilisateur",
+            "firstName": "string - Prénom",
+            "lastName": "string - Nom",
+            "phoneNumber": "string - Numéro de téléphone",
+            "email": "string - Adresse email",
+            "newsletterAccepted": "boolean - Acceptation newsletter",
+            "phoneVerified": "boolean - Téléphone vérifié",
+            "createdAt": "string - Date de création",
+            "updatedAt": "string - Dernière mise à jour",
+            "awsSyncStatus": "string - Statut synchronisation AWS"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "aws_project_region": "eu-west-3",
+  "aws_cognito_identity_pool_id": "eu-west-3:6350158c-0459-4811-a8c9-ea3c61a36e97",
+  "aws_cognito_region": "eu-west-3",
+  "aws_user_pools_id": "eu-west-3_TKLLmWTMP",
+  "aws_user_pools_web_client_id": "1q3t6vv72i4o3vi1n9cq6gthnv",
+  "oauth": {},
+  "aws_cognito_username_attributes": [],
+  "aws_cognito_social_providers": [],
+  "aws_cognito_signup_attributes": [
+    "EMAIL"
+  ],
+  "aws_cognito_mfa_configuration": "OFF",
+  "aws_cognito_mfa_types": [
+    "SMS"
+  ],
+  "aws_cognito_password_protection_settings": {
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": []
+  },
+  "aws_cognito_verification_mechanisms": [
+    "EMAIL"
+  ],
+  "aws_dynamodb_all_tables_region": "eu-west-3",
+  "aws_dynamodb_table_schemas": [
+    {
+      "tableName": "users-dev",
+      "region": "eu-west-3"
+    }
+  ]
+}

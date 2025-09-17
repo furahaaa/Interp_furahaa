@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-furahaa-dev-2db2d-authRole",
+      "UnauthRoleArn": "arn:aws:iam::392315624942:role/amplify-furahaa-dev-2db2d-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::392315624942:role/amplify-furahaa-dev-2db2d-authRole",
+      "Region": "eu-west-3",
+      "DeploymentBucketName": "amplify-furahaa-dev-2db2d-deployment",
+      "UnauthRoleName": "amplify-furahaa-dev-2db2d-unauthRole",
+      "StackName": "amplify-furahaa-dev-2db2d",
+      "StackId": "arn:aws:cloudformation:eu-west-3:392315624942:stack/amplify-furahaa-dev-2db2d/7422f7e0-73bc-11f0-8d20-0e10fa471c49",
+      "AmplifyAppId": "d1hhm4oehb7m6j"
+    },
+    "categories": {
+      "auth": {
+        "furahaafde53776": {}
+      },
+      "storage": {
+        "users": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-furahaa-dev-2db2d-authRole",
+      "UnauthRoleArn": "arn:aws:iam::392315624942:role/amplify-furahaa-dev-2db2d-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::392315624942:role/amplify-furahaa-dev-2db2d-authRole",
+      "Region": "eu-west-3",
+      "DeploymentBucketName": "amplify-furahaa-dev-2db2d-deployment",
+      "UnauthRoleName": "amplify-furahaa-dev-2db2d-unauthRole",
+      "StackName": "amplify-furahaa-dev-2db2d",
+      "StackId": "arn:aws:cloudformation:eu-west-3:392315624942:stack/amplify-furahaa-dev-2db2d/7422f7e0-73bc-11f0-8d20-0e10fa471c49",
+      "AmplifyAppId": "d1hhm4oehb7m6j"
+    }
+  },
+  "auth": {
+    "furahaafde53776": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-furahaa-dev-2db2d-deployment/amplify-cfn-templates/auth/furahaafde53776-cloudformation-template.json",
+        "logicalId": "authfurahaafde53776"
+      },
+      "lastPushTimeStamp": "2025-08-08T10:15:39.110Z",
+      "output": {
+        "UserPoolId": "eu-west-3_TKLLmWTMP",
+        "AppClientIDWeb": "1q3t6vv72i4o3vi1n9cq6gthnv",
+        "AppClientID": "2vgvm8gmqu28deq0ohmd7d2267",
+        "IdentityPoolId": "eu-west-3:6350158c-0459-4811-a8c9-ea3c61a36e97",
+        "UserPoolArn": "arn:aws:cognito-idp:eu-west-3:392315624942:userpool/eu-west-3_TKLLmWTMP",
+        "IdentityPoolName": "furahaafde53776_identitypool_fde53776__dev",
+        "UserPoolName": "furahaafde53776_userpool_fde53776"
+      },
+      "lastPushDirHash": "vkKnzhP+LRRoS2jlqHFI5eqGkeU="
+    }
+  },
+  "storage": {
+    "users": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-furahaa-dev-2db2d-deployment/amplify-cfn-templates/storage/users-cloudformation-template.json",
+        "logicalId": "storageusers"
+      },
+      "lastPushTimeStamp": "2025-08-08T10:15:39.110Z",
+      "output": {
+        "PartitionKeyName": "users",
+        "Region": "eu-west-3",
+        "Arn": "arn:aws:dynamodb:eu-west-3:392315624942:table/users-dev",
+        "StreamArn": "arn:aws:dynamodb:eu-west-3:392315624942:table/users-dev/stream/2025-08-08T10:14:42.376",
+        "PartitionKeyType": "S",
+        "Name": "users-dev"
+      },
+      "lastPushDirHash": "gQfsfuVu7QiNRCw72szcu2RM+LI="
+    }
+  }
+}
