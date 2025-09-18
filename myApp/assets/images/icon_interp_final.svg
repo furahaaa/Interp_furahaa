@@ -1,7 +1,0 @@
-<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background circle -->
-  <circle cx="512" cy="512" r="512" fill="#ffffff"/>
-  
-  <!-- Text INTERP - optimized for no overflow -->
-  <text x="512" y="580" font-family="Arial, sans-serif" font-size="140" font-weight="900" text-anchor="middle" fill="#000000">INTERP</text>
-</svg>
