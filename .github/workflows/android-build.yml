@@ -38,6 +38,13 @@ jobs:
           cd myApp
           npm install --legacy-peer-deps
           
+      - name: Verify icon files
+        run: |
+          cd myApp
+          echo "Checking icon files..."
+          ls -la assets/images/icon*.png
+          echo "Icon files verified ✅"
+          
       - name: Build Android APK and AAB
         run: |
           cd myApp/android
